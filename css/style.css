@@ -1,0 +1,340 @@
+@import 'fonts.css';
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+
+}
+
+body {
+  font-family: 'Montserrat';
+  background: #000;
+}
+
+a {
+  text-decoration: none;
+  text-transform: capitalize;
+}
+
+ul {
+  list-style: none;
+}
+
+.container {
+  width: 100%;
+  max-width: 1440px;
+  padding: 0 15px;
+  margin: 0 auto;
+}
+
+/* header start */
+
+.left_nav {
+  display: flex;
+  align-items: center;
+  column-gap: 30px;
+}
+
+.header_nav {
+  justify-content: space-between;
+  display: flex;
+  align-items: center;
+  width: 100%;
+  padding: 0 50px;
+}
+
+.header_color {
+  background: black;
+}
+
+.nav_img {
+  width: 100%;
+  max-width: 82px;
+}
+
+.nav_link {
+  color: white;
+}
+
+.nav_link:hover {
+  color: #FD9904;
+}
+
+
+.right_nav {
+  display: flex;
+  align-items: center;
+  column-gap: 30px;
+}
+
+/* header end */
+
+/* main start */
+
+.true_story {
+  background: url(../img/HEADERBG.png) no-repeat center center / cover;
+  height: 1080px;
+  width: 100%;
+}
+
+.icon_galaxy {
+  color: white;
+  background: #68B6FD;
+  padding: 5px;
+  border-radius: 40px;
+  border: 10px solid #FD9904;
+  margin-top: 700px;
+}
+
+.huracan {
+  font-size: 40px;
+  color: #68B6FD;
+}
+
+.about_story {
+  font-size: 64px;
+  color: #68B6FD;
+  width: 100%;
+  max-width: 461px;
+
+}
+
+.main_flex {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.main_logo {
+  max-width: 100px;
+}
+
+.main_start_bg {
+  align-items: center;
+  padding: 10px 0;
+}
+
+.lamborghini_title {
+  font-size: 40px;
+  text-transform: uppercase;
+  color: #FD9904;
+}
+
+.title_icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+
+.product_back {
+  height: 825px;
+  width: 100%;
+  background: white;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.about_product {
+  background: hsla(36, 98%, 50%, 0.5);
+  width: 100%;
+  height: 350px;
+  max-width: 736px;
+  padding: 10px;
+  margin-top: -200px;
+  margin-right: -600px;
+  z-index: 2;
+}
+
+.photo_of_brand {
+  margin-top: 100px;
+}
+
+.nav_link_store .config {
+  font-size: 36px;
+  color: black;
+}
+
+.config {
+  font-size: 22px;
+  margin-bottom: 100px;
+}
+
+.name_of_brand {
+  font-size: 72px;
+}
+
+.nav_link_icon {
+  display: none;
+}
+
+.title_icon_2 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  column-gap: 30px;
+}
+
+.lamba_ad {
+  background: black;
+  color: white;
+  text-transform: uppercase;
+  width: 100%;
+  max-width: 400px;
+  padding: 22px 40px;
+}
+
+.lamborghini_ad {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+
+.icon_lamba_ad {
+  background: black;
+  width: 100%;
+  max-width: 200px;
+  padding: 22px 30px;
+  margin-top: -10px;
+}
+
+.diler_in_your_country {
+  background: url(../img/lamba\ 3.png) no-repeat center center / cover;
+  width: 100%;
+  height: 1080px;
+}
+
+.diler_employee {
+  color: white;
+  font-size: 36px;
+}
+
+.find_diler {
+  width: 100%;
+  max-width: 660px;
+  font-size: 64px;
+  color: white;
+}
+
+
+
+
+/* main end */
+
+/* futer start */
+
+.lamba_book {
+  width: 100%;
+  max-width: 1291px;
+  margin-top: 100px;
+  height: 661px;
+}
+
+.history_of_car {
+  width: 100%;
+  max-width: 515px;
+  font-size: 36px;
+  color: white;
+}
+
+.footer_container {
+  display: flex;
+}
+
+.footer_txt_part {
+  display: flex;
+  flex-direction: column;
+  margin-left: 30px;
+  margin-top: 261px;
+}
+
+.look_up {
+  width: 100%;
+  max-width: 354px;
+  border: 2px solid white;
+  padding: 30px 60px;
+  font-size: 24px;
+  color: white;
+  transition: .5s;
+  margin-top: 229px;
+}
+
+.look_up:hover {
+  background: #FD9904;
+  color: white;
+  box-shadow: 0 0px 1000px 1px;
+}
+
+.look_At {
+  color: white;
+  background: gray;
+  padding: 30px 60px;
+}
+
+.look_At:hover {
+  background: #FD9904;
+  color: white;
+  box-shadow: 0 0px 1000px 1px;
+}
+
+.btn_lnk {
+  margin-top: 118px;
+  text-align: center;
+}
+
+.footer_list {
+  display: flex;
+  margin-top: 200px;
+  justify-content: space-between;
+}
+
+.footer_nav_link {
+  color: white;
+  font-size: 20px;
+}
+
+.footer_nav_link:hover {
+  color: #FD9904;
+}
+
+.footer_txt_end {
+  font-size: 24px;
+  color: white;
+  margin-top: 60px;
+}
+
+.insta {
+  background: linear-gradient(0deg, #E09B3D 0.29%, #C74C4D 29.97%, #C21975 59.65%, #7024C4 99.22%);
+  color: white;
+  border-radius: 10px;
+  height: 45px;
+}
+
+.telegram {
+  color: white;
+  background: #004D94;
+  width: 55px;
+  height: 55px;
+  padding: 5px;
+  border-radius: 50%;
+}
+
+.yutub {
+  color: red;
+}
+
+.twitka {
+  color: aqua;
+}
+
+.social_net {
+  display: flex;
+  justify-content: flex-end;
+  column-gap: 15px;
+}
+
+
+/* futer end */
